@@ -1,11 +1,17 @@
 <template>
     <div class="products">
+        <Nav/>
     </div>
 </template>
 
 <script>
+import Nav from '../components/Nav.vue'
+
 export default {
-    name: "Products"
+    name: "Products",
+    components: {
+        Nav
+    }
 }
 </script>
 
