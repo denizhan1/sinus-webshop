@@ -51,6 +51,7 @@
 </template>
 
 <script>
+//hi
 import Nav from '../components/Nav.vue'
 export default {
   components: { 
@@ -101,6 +102,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+   // justify-content: center;
 }
 .left{
     display: flex;
